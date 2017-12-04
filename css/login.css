@@ -1,0 +1,40 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  background: #FFA500;
+  font-family: 'Fjalla One', sans-serif;
+
+}
+img{
+  width: 600px;
+  height: 550px;
+  position: absolute;
+  top:0px;
+  left: 25%;
+}
+.login{
+  position: absolute;
+  left: 40%;
+  bottom:15%;
+  font-size: 20px;
+}
+input{
+  border: hidden;
+  filter:contrast(.6);
+  border-radius: 10px;
+  height: 30px;
+}
+.login-botton{
+  margin: 10px;
+  background-color: #000000;
+  padding: 10px 10px;
+  color: #fff;
+  border-radius: 5px;
+  border: 0;
+  font-size: 20px
+  font-weight: 600;
+}
+a{
+  text-decoration: none;
+}

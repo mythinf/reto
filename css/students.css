@@ -1,0 +1,170 @@
+*{
+  font-family: 'Armata', sans-serif;
+}
+header{
+  width: 100%;
+  text-align: center;
+  height: 15%;
+  background-color: white;
+  padding: 15px;
+}
+header img {
+  width: 20%;
+  height: 100%;
+  background-color: white
+}
+body {
+  background-color: gray;
+}
+h3{
+font-family: 'Source Code Pro', monospace;
+font-size: 25px;
+display: inline-block;
+padding-left: 5%;
+}
+h3 a{
+font-family: 'Source Code Pro';
+text-decoration: none;
+color: black;
+}
+h3 a:hover{
+color: #FFA500;
+font-weight: bolder;
+}
+.optionsheader h3:hover{
+  color: #FFA500;
+  font-weight: bolder;
+}
+a{
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  border-radius: 5px;
+  margin-bottom: 2px;
+}
+#sede_generation{
+  margin-left: 5%;
+  display: block;
+  background-color: #FFA500;
+  padding: 10px 10px;
+  color: #fff;
+  border-radius: 5px;
+  border: 0;
+  font-weight: 600;
+  margin-bottom: 7px;
+
+}
+.sede{
+  padding: 5px;
+  width: 90px;
+  font-size: 18px;
+  background-color: #727171;
+  color: #000000;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: inline-block;
+
+}
+.sede:hover{
+  background-color: #FFA500;
+}
+a .sede{
+  background-color: salmon;
+}
+.hiden {
+  display: none;
+}
+.show {
+  display:inline-block;
+
+}
+.generation{
+  width: 100px;
+  background-color: #D0D0D0;
+  font-size: 16px;
+}
+#container_students{
+  margin: 1%;
+  display:inline-block;
+  width: 1100px;
+  height: 200px;
+  left: 200px;
+  top: 100px;
+  position: relative;
+  outline: 3px solid gold;
+  padding-bottom: 50px;
+  background-color: white;
+}
+/*.perfil img{
+  padding: 1.5%;
+  display: inline-block;
+  position: relative;
+  left: 120px;
+
+
+}*/
+
+.photo_perfil{
+  display: inline-block;
+  position: relative;
+  left: 50px;
+  width: 170px;
+  height:170px;
+  top: 28px;
+
+
+}
+.perfil .basic_data_perfil{
+  position: relative;
+  padding: 1%;
+  padding-left: 2%;
+  bottom: 18px;
+  left: 100px;
+  /*outline: 3px solid indianred;*/
+  display: inline-block;
+  background-color: white;
+}
+.basic_data_perfil {
+  width: 15%;
+  display:inline-block;
+  position: relative;
+  left: 30px;
+  background-color: white;
+}
+
+span{
+  /*outline: 1px solid red;*/
+  display: inline-block;
+}
+h2{
+  font-size: 15px;
+  /*outline: 1px solid rgb(165, 51, 165);*/
+  display: inline-block;
+}
+#skills{
+  text-align: center;
+  padding: 1%;
+  /*outline: 1px solid rgb(245, 11, 69);*/
+  display: inline-block;
+  position: relative;
+  left: 150px;
+  bottom: 18px;
+}
+.container_students{
+  margin-left: 1%;
+  padding: 2%;
+  /*outline: 1px solid blue;*/
+  display: inline-block;
+  position: relative;
+  left: 160px;
+  top: 50px;
+  width: 100px;
+  background-color: white;
+}
+tr {
+  /*outline: 10px solid green;*/
+  position: relative;
+  display: block;
+  left: 750px;
+  bottom: 110px;
+}

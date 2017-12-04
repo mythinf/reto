@@ -1,0 +1,38 @@
+*{
+  box-sizing: border-box;
+  font-family: 'Fjalla One', sans-serif;
+  text-align: center;
+}
+.box-header{
+  display: inline-block;
+}
+header{
+  position: relative;
+}
+img{
+  width: 200px;
+}
+nav{
+  position: absolute;
+  right: 5%;
+  top: 40%;
+  transform: translateY(-30%);
+}
+a{
+  text-decoration: none;
+}
+.container{
+  margin: 5px;
+}
+.country{
+  height: 100px;
+  width:100%;
+  border-radius: 60%;
+  color: #000000;
+  font-size: 40px;
+  background: #FFA500;
+}
+.country:hover{
+  background: #ffff;
+  color:  #FFA500;
+}
